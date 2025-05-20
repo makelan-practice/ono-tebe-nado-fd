@@ -1,1 +1,78 @@
-/* место для вашего кода */
+
+/* Вся шапка */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 40px 60px;
+}
+
+/* Контейнер навигации */
+.header__menu {
+  justify-self: start;
+}
+
+/* Список ссылок */
+.header__links-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+/* Пункт списка ссылок */
+.header__links-list-item {
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+/* Пункт без маркера */
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+/* Ссылка */
+.header__link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+/* Активная ссылка */
+.header__link_active {
+  text-decoration: underline;
+}
+
+/* Контейнер логотипа */
+.header__logo {
+  display: block;
+  width: 130px;
+  justify-self: center;
+}
+
+/* Картинка с логотипом */
+.header__logo-image {
+  display: block;
+  width: 100%;
+}
+
+/* Контейнер с адресом */
+.address {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+/* Блок адреса в шапке */
+.header__address {
+  justify-self: end;
+  text-align: left;
+}
+
+.header__address a {
+  color: black;
+  text-decoration: underline;
+}               
