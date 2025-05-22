@@ -252,8 +252,8 @@
 }
 
 .card__title {
-  font-size: 20px;
-  font-weight: bold;
+  /*font-size: 20px;*/
+  /*font-weight: bold;*/
   text-decoration: underline;
   z-index: 1;
   position: relative;
@@ -274,7 +274,7 @@
 }
 
 .lots__look-more-link {
-  font-size: 16px;
+  /*font-size: 16px;*/
   text-decoration: underline;
   display: inline-block;
   font-weight: 400;
