@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 40px 60px;
+  padding: 60px 50px;
   height: 293px;
   font-weight: 400;
   font-size: 18px;
@@ -20,7 +20,7 @@
 .header__links-list {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 13px;
   padding: 0;
   margin: 0;
   align-items: center;
@@ -59,8 +59,8 @@
 
 /* Картинка с логотипом */
 .header__logo-image {
-  display: block;
-  width: 100%;
+  width: 135px;
+  height: auto;
 }
 
 /* Контейнер с адресом */
@@ -318,7 +318,7 @@
 }
 
 .about__logo-image {
-  max-width: 160px;
+  max-width: 150px;
   height: auto;
 }
 
@@ -344,7 +344,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 180px 50px;
+  margin: 186px 50px;
   align-items: start;
   min-height: 180px;
 }
@@ -370,7 +370,6 @@
 .footer__menu-list {
   list-style: none;
   padding: 0;
-  margin: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
