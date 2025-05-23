@@ -70,7 +70,7 @@
   width: 240px;
   font-family: Raleway, sans-serif;
   font-style: normal;
-  
+
 }
 
 /* Блок адреса в шапке */
@@ -128,7 +128,7 @@
 }
 
 .aligned-text:nth-child(1) {
-  justify-self: start; 
+  justify-self: start;
   margin-bottom: 20px;
 }
 
