@@ -7,7 +7,7 @@
 body {
   width: 1100px;
   margin: 0 auto;
-  max-height: 3028px;
+  height: auto;
   font-family: Raleway, sans-serif;
   font-style: normal;
 }
