@@ -39,13 +39,6 @@
   margin-bottom: 3px;
 }
 
-.header__links-list li::marker {
-  color: #000000;
-  /* цвет кружка */
-  font-size: 1em;
-  /* размер кружка */
-}
-
 .header__links-list-item {
   list-style: circle;
 }
@@ -56,7 +49,7 @@
 
 /* Ссылка */
 .header__link {
-  text-decoration: none;
+  text-decoration: underline;
   color: #000000;
   position: relative;
   display: inline-block;
@@ -64,23 +57,9 @@
   line-height: 1.3;
 }
 
-.header__link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 2px;
-  height: 1px;
-  background: #000000;
-}
-
 /* Активная ссылка */
 .header__link_active {
   text-decoration: none;
-}
-
-.header__link_active::after {
-  height: 0px;
 }
 
 /* Контейнер логотипа */
@@ -107,19 +86,9 @@
 
 .header__address a {
   color: #000000;
-  text-decoration: none;
+  text-decoration: underline;
   position: relative;
   display: inline-block;
-}
-
-.header__address a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0px;
-  height: 1px;
-  background: #000000;
 }
 
 /* Основная секция */
@@ -293,8 +262,6 @@
 }
 
 .card__title {
-  /*font-size: 20px;*/
-  /*font-weight: bold;*/
   text-decoration: underline;
   z-index: 1;
   position: relative;
@@ -394,35 +361,15 @@
 .footer__link {
   position: relative;
   display: inline-block;
-  text-decoration: none;
+  text-decoration: underline;
   color: #000000;
-}
-
-.footer__link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 2px;
-  height: 1px;
-  background: #000000;
 }
 
 .address__link {
   position: relative;
   display: inline-block;
-  text-decoration: none;
+  text-decoration: underline;
   color: #000000;
-}
-
-.address__link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 3px;
-  height: 1px;
-  background: #000000;
 }
 
 .footer__menu {
