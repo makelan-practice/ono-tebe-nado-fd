@@ -56,15 +56,31 @@
 
 /* Ссылка */
 .header__link {
-  text-decoration: underline;
+  text-decoration: none;
   color: #000000;
+  position: relative;
+  display: inline-block;
   font-size: 18px;
   line-height: 1.3;
+}
+
+.header__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2px;
+  height: 1px;
+  background: #000000;
 }
 
 /* Активная ссылка */
 .header__link_active {
   text-decoration: none;
+}
+
+.header__link_active::after {
+  height: 0px;
 }
 
 /* Контейнер логотипа */
@@ -86,11 +102,24 @@
 .header__address {
   justify-self: end;
   text-align: left;
+  margin-bottom: 2px;
 }
 
 .header__address a {
   color: #000000;
-  text-decoration: underline;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.header__address a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  height: 1px;
+  background: #000000;
 }
 
 /* Основная секция */
@@ -363,13 +392,37 @@
 }
 
 .footer__link {
+  position: relative;
+  display: inline-block;
   text-decoration: none;
   color: #000000;
 }
 
+.footer__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2px;
+  height: 1px;
+  background: #000000;
+}
+
 .address__link {
-  text-decoration: underline;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
   color: #000000;
+}
+
+.address__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3px;
+  height: 1px;
+  background: #000000;
 }
 
 .footer__menu {
